@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/* 1.内部样式 */
+		p{
+			color:blue;
+		}
+	</style>
+	<!-- link链接外部样式文件 -->
+	<!-- <link rel="stylesheet" type="text/css" href="style/hello.css"> -->
+	<!-- 3.import导入外部样式文件 -->
+	<style>
+		/* @import "style/hello.css" */
+		@import url(style/hello.css);
+	</style>
+</head>
+<body>
+	<p>welcome to CSS!</p>
+	<p>欢迎来到CSS课堂!</p>
+	<hr>
+	<h2 style="color:red;">WEB前段工程师</h2>
+	<h2>JAVA开发工程师</h2>
+	<hr>
+	<div>嘿嘿</div>
+	<div>哈哈</div>
+</body>
+</html>
